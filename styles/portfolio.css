@@ -1,0 +1,31 @@
+/* font family */
+body {font-family: 'Open Sans', sans-serif;}
+/* nav style */
+nav { display: flex;
+align-items: center;
+justify-content:space-between;
+margin: 0 200px;}
+.font {color: var(--dark-01, #181818);
+     font-size: 45px;
+ font-weight: 800;
+ 
+   }
+   .primary-text{color: #FD6E0A;}
+   .modified {color:rgb(155, 12, 232);}
+   nav > ul {display: flex;align-items: center;}
+   nav li {list-style: none;
+margin-right: 50px;
+;}
+nav a {text-decoration: none;
+color: black
+}
+.btn-primary{border-radius: 5px;
+    background: #FD6E0A;
+border: 0
+;font-size: 20px;
+font-style: normal;
+font-weight: 700;
+padding: 18px 35px 19px 36px;
+color: white;}
+.header {background-color: #FFF8F3;}
+.banner {padding: 30px 30px 30px 150px;}
